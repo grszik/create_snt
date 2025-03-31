@@ -29,6 +29,7 @@
   "item.create_snt.green_gumdrop": "Green Gumdrop",
   "item.create_snt.red_gumdrop": "Red Gumdrop",
   "item.create_snt.yellow_gumdrop": "Yellow Gumdrop",
+  "item.create_snt.gumdrop": "Gumdrop",
   "item.create_snt.blue_rock_candy": "Blue Rock Candy",
   "item.create_snt.green_rock_candy": "Green Rock Candy",
   "item.create_snt.orange_rock_candy": "Orange Rock Candy",
@@ -39,5 +40,5 @@
   "item.create_snt.apple_syrup_bucket": "Bucket of Apple Syrup",
   "fluid_type.create_snt.apple_syrup": "Apple Syrup",
   "block.create_snt.apple_syrup": "Apple Syrup",
-  "itemGroup.create_snt.creativetab": "Create: Sweets 'n' Treats"
+  "itemGroup.create_snt.creativetab": "Create: Sweets & Treats"
 }
