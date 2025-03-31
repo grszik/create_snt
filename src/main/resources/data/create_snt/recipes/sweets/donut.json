@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create_snt:filled_donut_pan"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "create_snt:donut"
+    },
+    {
+      "count": 1,
+      "item": "create_snt:donut_pan"
+    }
+  ]
+}

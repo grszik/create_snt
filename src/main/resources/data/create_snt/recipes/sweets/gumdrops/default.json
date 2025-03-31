@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create_snt:sugar"
+    },
+    {
+      "amount": 1000,
+      "fluid": "create_snt:apple_syrup",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "create_snt:red_gumdrop"
+    },
+    {
+      "chance": 0.5,
+      "item": "create_snt:red_gumdrop"
+    }
+  ]
+}

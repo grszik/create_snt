@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create_snt:filled_cake_pan"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "create_snt:pie"
+    },
+    {
+      "count": 1,
+      "item": "create_snt:cake_pan"
+    }
+  ]
+}

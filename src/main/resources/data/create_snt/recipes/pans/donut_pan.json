@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#c#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "create:zinc_nugget"
+    },
+    "c": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "result": {
+    "item": "create_snt:donut_pan",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "create:cinder_flour",
+      "create:dough"
+    ]
+  ],
+  "result": {
+    "id": "create_snt:cinder_dough"
+  }
+}

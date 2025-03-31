@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xcx",
+    "cxc",
+    "xcx"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:wheat"
+    },
+    "x": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "create_snt:gunpowder_cake",
+    "count": 6
+  }
+}

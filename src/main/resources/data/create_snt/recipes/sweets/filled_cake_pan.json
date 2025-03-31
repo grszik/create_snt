@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create_snt:cake_pan"
+    },
+    {
+      "item": "create:dough"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_snt:filled_cake_pan"
+    }
+  ]
+}

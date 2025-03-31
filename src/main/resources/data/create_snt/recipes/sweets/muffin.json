@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create_snt:filled_muffin_pan"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "create_snt:muffin"
+    },
+    {
+      "count": 1,
+      "item": "create_snt:muffin_pan"
+    }
+  ]
+}

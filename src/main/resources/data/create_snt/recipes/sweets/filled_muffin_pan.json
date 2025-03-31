@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create_snt:muffin_pan"
+    },
+    {
+      "item": "create:dough"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_snt:filled_muffin_pan"
+    }
+  ]
+}

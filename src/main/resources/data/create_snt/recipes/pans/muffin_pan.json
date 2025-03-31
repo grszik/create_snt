@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c c",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "result": {
+    "item": "create_snt:muffin_pan",
+    "count": 1
+  }
+}

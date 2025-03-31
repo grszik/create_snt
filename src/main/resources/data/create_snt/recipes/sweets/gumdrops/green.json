@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "create_snt:gumdrops"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "create_snt:green_gumdrop"
+    },
+    {
+      "chance": 0.5,
+      "item": "create_snt:green_gumdrop"
+    }
+  ]
+}
