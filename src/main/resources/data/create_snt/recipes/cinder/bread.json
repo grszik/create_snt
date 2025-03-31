@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": "create_snt:cinder_dough",
-  "result": {
-    "id": "create_snt:cinder_bread"
-  }
-}

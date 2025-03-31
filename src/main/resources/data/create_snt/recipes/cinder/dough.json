@@ -1,12 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "create:mixing",
+  "heatRequirement": "heated",
   "ingredients": [
-    [
-      "create:cinder_flour",
-      "create:dough"
-    ]
+    {
+      "item": "create:dough"
+    },
+
+    {
+      "item": "create:cinder_flour"
+    }
   ],
-  "result": {
-    "id": "create_snt:cinder_dough"
-  }
+  "results": [
+    {
+      "count": 2,
+      "item": "create_snt:cinder_dough"
+    }
+  ]
 }

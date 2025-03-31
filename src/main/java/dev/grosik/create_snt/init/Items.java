@@ -194,7 +194,13 @@ public class Items {
             .rarity(Rarity.COMMON));
 
     // Gumdrops
-
+    public static final RegistryObject<Item> GUMDROP = registerItem("gumdrop", new Item.Properties()
+            .stacksTo(16)
+            .food(new FoodProperties.Builder()
+                    .nutrition(1)
+                    .saturationMod(3f)
+                    .build())
+            .rarity(Rarity.COMMON));
     public static final RegistryObject<Item> BLUE_GUMDROP = registerItem("blue_gumdrop", new Item.Properties()
             .stacksTo(16)
             .food(new FoodProperties.Builder()
