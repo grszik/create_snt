@@ -1,5 +1,5 @@
 # Create: Sweets 'n' Treats (*Reforged*)
-Unofficial version of SNR for Forge. Keep in mind this is not a 1:1 copy, but a remake - some recipes or item names/ids might be different.
+Unofficial version of S&T for Forge. Keep in mind this is not a 1:1 copy, but a remake - some recipes or item names/ids might be different.
 ## Foods
 Offers Muffins, Donuts, Pies, Rock Candy, Gumdrops, Sugar Cookies, Cinder Bread, Cinder Rolls and Gunpowder Cakes (definitely safe to eat). The first three also have different flavours: Apple Syrup, Sweet, Honeyed and Chocolate.
 ## Decorational blocks
