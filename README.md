@@ -5,6 +5,6 @@ Offers Muffins, Donuts, Pies, Rock Candy, Gumdrops, Sugar Cookies, Cinder Bread,
 ## Decorational blocks
 Even though the official version has them, this one doesn't yet.
 ## Dependencies
-Requires Create 0.5.1.
+Requires the [Create mod](https://modrinth.com/mod/create/), at least version 0.5.1.
 
 Check the official version of the mod: [Modrinth](https://modrinth.com/mod/create-sweets-and-treats/) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-sweets-and-treats).
