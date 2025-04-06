@@ -20,7 +20,9 @@ public class Items {
     public static final RegistryObject<Item> FILLED_DONUT_PAN = registerItem("filled_donut_pan", new Item.Properties()
             .stacksTo(1)
             .rarity(Rarity.COMMON));
-
+    public static final RegistryObject<Item> INCOMPLETE_DONUT = registerItem("incomplete_donut", new Item.Properties()
+            .stacksTo(1)
+            .rarity(Rarity.COMMON));
     public static final RegistryObject<Item> DONUT = registerItem("donut", new Item.Properties()
             .stacksTo(16)
             .food(new FoodProperties.Builder()
@@ -65,7 +67,9 @@ public class Items {
     public static final RegistryObject<Item> FILLED_MUFFIN_PAN = registerItem("filled_muffin_pan", new Item.Properties()
             .stacksTo(1)
             .rarity(Rarity.COMMON));
-
+    public static final RegistryObject<Item> INCOMPLETE_MUFFIN = registerItem("incomplete_muffin", new Item.Properties()
+            .stacksTo(1)
+            .rarity(Rarity.COMMON));
     public static final RegistryObject<Item> MUFFIN = registerItem("muffin", new Item.Properties()
             .stacksTo(16)
             .food(new FoodProperties.Builder()
@@ -110,7 +114,9 @@ public class Items {
     public static final RegistryObject<Item> FILLED_CAKE_PAN = registerItem("filled_cake_pan", new Item.Properties()
             .stacksTo(1)
             .rarity(Rarity.COMMON));
-
+    public static final RegistryObject<Item> INCOMPLETE_PIE = registerItem("incomplete_pie", new Item.Properties()
+            .stacksTo(1)
+            .rarity(Rarity.COMMON));
     public static final RegistryObject<Item> PIE = registerItem("pie", new Item.Properties()
             .stacksTo(16)
             .food(new FoodProperties.Builder()

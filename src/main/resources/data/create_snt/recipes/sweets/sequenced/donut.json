@@ -1,0 +1,75 @@
+{
+  "ingredient": {
+    "item": "minecraft:wheat"
+  },
+  "transitionalItem": {
+    "item": "create_snt:incomplete_donut"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_snt:incomplete_donut"
+        },
+        {
+          "item": "create_snt:donut_pan"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_snt:incomplete_donut"
+        }
+      ]
+    },
+    {
+      "type": "create:milling",
+      "ingredients": [
+        {
+          "item": "create_snt:incomplete_donut"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_snt:incomplete_donut"
+        }
+      ]
+    },
+    {
+      "type": "create:splashing",
+      "ingredients": [
+        {
+          "item": "create_snt:incomplete_donut"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_snt:incomplete_donut"
+        }
+      ]
+    },
+    {
+      "type": "create:mixing",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "create_snt:incomplete_donut"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_snt:incomplete_donut"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_snt:donut"
+    },
+    {
+      "item": "create_snt:donut_pan"
+    }
+  ]
+}

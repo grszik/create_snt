@@ -1,4 +1,5 @@
 {
+  "item.create_snt.incomplete_donut": "Incomplete Donut",
   "item.create_snt.donut": "Donut",
   "item.create_snt.honey_donut": "Honeyed Donut",
   "item.create_snt.apple_donut": "Apple Syrup Donut",
@@ -6,6 +7,7 @@
   "item.create_snt.chocolate_donut": "Chocolate Donut",
   "item.create_snt.donut_pan": "Zinc Donut Pan",
   "item.create_snt.filled_donut_pan": "Filled Zinc Donut Pan",
+  "item.create_snt.incomplete_muffin": "Incomplete Muffin",
   "item.create_snt.muffin": "Muffin",
   "item.create_snt.honey_muffin": "Honeyed Muffin",
   "item.create_snt.apple_muffin": "Apple Syrup Muffin",
@@ -13,6 +15,7 @@
   "item.create_snt.chocolate_muffin": "Chocolate Muffin",
   "item.create_snt.muffin_pan": "Copper Muffin Pan",
   "item.create_snt.filled_muffin_pan": "Filled Copper Muffin Pan",
+  "item.create_snt.incomplete_pie": "Incomplete Pie",
   "item.create_snt.pie": "Pie",
   "item.create_snt.honey_pie": "Honeyed Pie",
   "item.create_snt.apple_pie": "Apple Pie",

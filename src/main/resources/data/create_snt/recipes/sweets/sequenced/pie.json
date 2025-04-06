@@ -1,0 +1,75 @@
+{
+  "ingredient": {
+    "item": "minecraft:wheat"
+  },
+  "transitionalItem": {
+    "item": "create_snt:incomplete_pie"
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:splashing",
+      "ingredients": [
+        {
+          "item": "create_snt:incomplete_pie"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_snt:incomplete_pie"
+        }
+      ]
+    },
+    {
+      "type": "create:milling",
+      "ingredients": [
+        {
+          "item": "create_snt:incomplete_pie"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_snt:incomplete_pie"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_snt:incomplete_pie"
+        },
+        {
+          "item": "create_snt:pie_pan"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_snt:incomplete_pie"
+        }
+      ]
+    },
+    {
+      "type": "create:mixing",
+      "heatRequirement": "heated",
+      "ingredients": [
+        {
+          "item": "create_snt:incomplete_pie"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_snt:incomplete_pie"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_snt:pie"
+    },
+    {
+      "item": "create_snt:pie_pan"
+    }
+  ]
+}
