@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "create_snt:block/chocolate_door_bottom",
+    "top": "create_snt:block/chocolate_door_top"
+  }
+}

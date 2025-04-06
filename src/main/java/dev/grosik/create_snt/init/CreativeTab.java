@@ -13,9 +13,10 @@ import java.util.List;
 
 public class CreativeTab {
     public static final List<RegistryObject<? extends Item>> TAB_ITEMS = new ArrayList<>();
+    public static final List<RegistryObject<? extends Item>> BLOCK_TAB_ITEMS = new ArrayList<>();
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateSNT.MODID);
 
-    public static RegistryObject<CreativeModeTab> TAB = TABS.register("extra",
+    public static RegistryObject<CreativeModeTab> TAB = TABS.register("create_snt",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.create_snt.creativetab"))
                     .icon(Items.DONUT.get()::getDefaultInstance)
@@ -23,9 +24,21 @@ public class CreativeTab {
                         TAB_ITEMS.forEach(itemLike -> output.accept(itemLike.get()));
                     })
                     .build());
+    public static RegistryObject<CreativeModeTab> TAB_BLOCKS = TABS.register("extra",
+            () -> CreativeModeTab.builder()
+                    .title(Component.translatable("itemGroup.create_snt.creativeblockstab"))
+                    .icon(Blocks.BLUE_ROCK_CANDY.get()::getDefaultInstance)
+                    .displayItems((displayParameters, output) -> {
+                        BLOCK_TAB_ITEMS.forEach(itemLike -> output.accept(itemLike.get()));
+                    })
+                    .build());
 
     public static <T extends Item> RegistryObject<T> addToTab(RegistryObject<T> itemLike) {
         TAB_ITEMS.add(itemLike);
+        return itemLike;
+    }
+    public static <T extends Item> RegistryObject<T> addToTabBlocks(RegistryObject<T> itemLike) {
+        BLOCK_TAB_ITEMS.add(itemLike);
         return itemLike;
     }
 }

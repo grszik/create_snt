@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "create_snt:green_rock_blocks"
+  },
+  "result": "create_snt:green_rock_candy_block"
+}

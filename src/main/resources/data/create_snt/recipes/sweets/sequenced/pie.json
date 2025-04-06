@@ -1,38 +1,15 @@
 {
+  "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:wheat"
-  },
-  "transitionalItem": {
-    "item": "create_snt:incomplete_pie"
+    "item": "create_snt:cake_pan"
   },
   "loops": 1,
+  "results": [
+    {
+      "item": "create_snt:filled_cake_pan"
+    }
+  ],
   "sequence": [
-    {
-      "type": "create:splashing",
-      "ingredients": [
-        {
-          "item": "create_snt:incomplete_pie"
-        }
-      ],
-      "results": [
-        {
-          "item": "create_snt:incomplete_pie"
-        }
-      ]
-    },
-    {
-      "type": "create:milling",
-      "ingredients": [
-        {
-          "item": "create_snt:incomplete_pie"
-        }
-      ],
-      "results": [
-        {
-          "item": "create_snt:incomplete_pie"
-        }
-      ]
-    },
     {
       "type": "create:deploying",
       "ingredients": [
@@ -40,7 +17,7 @@
           "item": "create_snt:incomplete_pie"
         },
         {
-          "item": "create_snt:pie_pan"
+          "item": "create:wheat_flour"
         }
       ],
       "results": [
@@ -50,11 +27,15 @@
       ]
     },
     {
-      "type": "create:mixing",
-      "heatRequirement": "heated",
+      "type": "create:filling",
       "ingredients": [
         {
           "item": "create_snt:incomplete_pie"
+        },
+        {
+          "amount": 500,
+          "fluid": "minecraft:water",
+          "nbt": {}
         }
       ],
       "results": [
@@ -64,12 +45,7 @@
       ]
     }
   ],
-  "results": [
-    {
-      "item": "create_snt:pie"
-    },
-    {
-      "item": "create_snt:pie_pan"
-    }
-  ]
+  "transitionalItem": {
+    "item": "create_snt:incomplete_pie"
+  }
 }

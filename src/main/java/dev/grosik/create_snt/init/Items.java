@@ -4,11 +4,14 @@ import dev.grosik.create_snt.CreateSNT;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.apache.commons.lang3.ObjectUtils;
 
 public class Items {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CreateSNT.MODID);
@@ -293,5 +296,11 @@ public class Items {
 
     public static RegistryObject<Item> registerItem(String name, Item.Properties properties) {
         return CreativeTab.addToTab(ITEMS.register(name, () -> new Item(properties)));
+    }
+    public static RegistryObject<Item> registerBlockItem(RegistryObject<Block> block, String name) {
+        return CreativeTab.addToTabBlocks(ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().rarity(Rarity.COMMON))));
+    }
+    public static RegistryObject<Item> registerBlockItem(RegistryObject<Block> block, String name, Item.Properties properties) {
+        return CreativeTab.addToTabBlocks(ITEMS.register(name, () -> new BlockItem(block.get(), properties)));
     }
 }

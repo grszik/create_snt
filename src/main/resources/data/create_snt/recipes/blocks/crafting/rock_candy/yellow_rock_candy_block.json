@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_snt:yellow_rock_candy"
+    },
+    {
+      "item": "create_snt:yellow_rock_candy"
+    },
+    {
+      "item": "create_snt:yellow_rock_candy"
+    },
+    {
+      "item": "create_snt:yellow_rock_candy"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_snt:yellow_rock_candy_block"
+    }
+  ]
+}

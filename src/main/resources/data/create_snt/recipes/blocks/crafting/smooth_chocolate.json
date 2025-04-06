@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:chocolate_bar"
+    },
+    {
+      "item": "create:chocolate_bar"
+    },
+    {
+      "item": "create:chocolate_bar"
+    },
+    {
+      "item": "create:chocolate_bar"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_snt:smooth_chocolate"
+    }
+  ]
+}

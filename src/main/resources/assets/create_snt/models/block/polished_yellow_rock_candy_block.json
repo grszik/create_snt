@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "create_snt:block/polished_yellow_rock_candy_block"
+  }
+}

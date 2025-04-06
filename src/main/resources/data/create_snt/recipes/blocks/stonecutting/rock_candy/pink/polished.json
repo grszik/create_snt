@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "create_snt:pink_rock_blocks"
+  },
+  "result": "create_snt:polished_pink_rock_candy_block"
+}

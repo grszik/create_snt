@@ -1,11 +1,14 @@
 {
+  "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:wheat"
-  },
-  "transitionalItem": {
-    "item": "create_snt:incomplete_muffin"
+    "item": "create_snt:muffin_pan"
   },
   "loops": 1,
+  "results": [
+    {
+      "item": "create_snt:filled_muffin_pan"
+    }
+  ],
   "sequence": [
     {
       "type": "create:deploying",
@@ -14,7 +17,7 @@
           "item": "create_snt:incomplete_muffin"
         },
         {
-          "item": "create_snt:muffin_pan"
+          "item": "create:wheat_flour"
         }
       ],
       "results": [
@@ -24,37 +27,15 @@
       ]
     },
     {
-      "type": "create:milling",
+      "type": "create:filling",
       "ingredients": [
         {
           "item": "create_snt:incomplete_muffin"
-        }
-      ],
-      "results": [
+        },
         {
-          "item": "create_snt:incomplete_muffin"
-        }
-      ]
-    },
-    {
-      "type": "create:splashing",
-      "ingredients": [
-        {
-          "item": "create_snt:incomplete_muffin"
-        }
-      ],
-      "results": [
-        {
-          "item": "create_snt:incomplete_muffin"
-        }
-      ]
-    },
-    {
-      "type": "create:mixing",
-      "heatRequirement": "heated",
-      "ingredients": [
-        {
-          "item": "create_snt:incomplete_muffin"
+          "amount": 500,
+          "fluid": "minecraft:water",
+          "nbt": {}
         }
       ],
       "results": [
@@ -64,12 +45,7 @@
       ]
     }
   ],
-  "results": [
-    {
-      "item": "create_snt:muffin"
-    },
-    {
-      "item": "create_snt:muffin_pan"
-    }
-  ]
+  "transitionalItem": {
+    "item": "create_snt:incomplete_muffin"
+  }
 }
