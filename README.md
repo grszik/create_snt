@@ -13,4 +13,5 @@ The original version for Forge is really broken, not to mention it's not uploade
 Just use [JEI](https://modrinth.com/mod/jei) or [EMI](https://modrinth.com/mod/emi)
 ### Links
 My version: *Not approved on Modrinth* | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-snt-reforged)
+
 Original version of the mod: [Modrinth](https://modrinth.com/mod/create-sweets-and-treats/) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-sweets-and-treats).
