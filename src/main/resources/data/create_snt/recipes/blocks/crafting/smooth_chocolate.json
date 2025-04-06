@@ -1,22 +1,20 @@
 {
-  "type": "crafting_shapeless",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "create:chocolate_bar"
+      "item": "create:bar_of_chocolate"
     },
     {
-      "item": "create:chocolate_bar"
+      "item": "create:bar_of_chocolate"
     },
     {
-      "item": "create:chocolate_bar"
+      "item": "create:bar_of_chocolate"
     },
     {
-      "item": "create:chocolate_bar"
+      "item": "create:bar_of_chocolate"
     }
   ],
-  "results": [
-    {
-      "item": "create_snt:smooth_chocolate"
-    }
-  ]
+  "result": {
+    "item": "create_snt:smooth_chocolate"
+  }
 }

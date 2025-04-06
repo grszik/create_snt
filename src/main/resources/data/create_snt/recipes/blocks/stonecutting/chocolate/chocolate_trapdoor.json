@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 3,
+  "ingredient": {
+    "tag": "create_snt:chocolate_blocks"
+  },
+  "result": "create_snt:chocolate_trapdoor"
+}

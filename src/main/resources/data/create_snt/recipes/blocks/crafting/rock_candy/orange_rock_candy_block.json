@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shapeless",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "create_snt:orange_rock_candy"
@@ -14,9 +14,7 @@
       "item": "create_snt:orange_rock_candy"
     }
   ],
-  "results": [
-    {
-      "item": "create_snt:orange_rock_candy_block"
-    }
-  ]
+  "result": {
+    "item": "create_snt:orange_rock_candy_block"
+  }
 }
