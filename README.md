@@ -26,6 +26,6 @@ Just use [JEI](https://modrinth.com/mod/jei) or [EMI](https://modrinth.com/mod/e
 
 ### Links
 
-My version: _Not approved on Modrinth_ | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-snt-reforged)
+My version: [Modrinth](https://modrinth.com/mod/create-snt-reforged) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-snt-reforged)
 
 Original version of the mod: [Modrinth](https://modrinth.com/mod/create-sweets-and-treats/) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-sweets-and-treats).
